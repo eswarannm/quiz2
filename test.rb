@@ -31,10 +31,18 @@ describe 'number_summary' do
 		end
 	end
 
-	describe 'median' do
+	describe 'standard_deviation' do
 
-		it 'median' do 
+		it '4 numbers' do 
 			standard_deviation([6,2,3,1]).must_equal(1.87)
+		end
+
+	end
+
+	describe 'mode' do
+
+		it 'mode' do 
+			mode([6,2,1,1]).must_equal(1)
 		end
 
 	end

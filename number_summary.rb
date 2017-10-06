@@ -28,8 +28,5 @@ def standard_deviation(array)
 
 	sd = Math.sqrt(average)
 
-	return sd.round(2)
-
-
-
+	return sd
 end
